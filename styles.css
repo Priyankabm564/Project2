@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  background-color: lightpink;
+  background-image: url(mondler.PNG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-attachment: fixed;
+  padding: 30px;
+  width: 100%;
+}
+
+h1 {
+  color: #845ec2;
+}
+
+h3 {
+  color: #845ec2;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+  text-shadow: 1px 1px 1px purple;
+  font-family: 'Mukta', sans-serif;
+}
+
+.Content p {
+  color: #b088f9;
+  text-transform: uppercase;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 2px 2px purple;
+}
+
+.red-seven {
+  color: #c70039;
+  text-shadow: 1px 2px 2px #c70039;
+}
+
+.yellow-seven {
+  color: yellow;
+  text-shadow: 1px 2px 2px yellow;
+}
+
+.blue-seven {
+  color: #2ACDC1;
+  text-shadow: 1px 2px 2px #2ACDC1;
+}
+
+.firstsize {
+  font-size: 1.5rem;
+}
+
+.secondsize {
+  font-size: 1.7rem;
+}
+
+.thirdsize {
+  font-size: 1.9rem;
+}
+
+.fourthsize {
+  font-size: 2.1rem;
+}
+
+.bigsize {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  padding: 4rem;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+height: auto;
+  }
+
+  100% {
+    opacity: 1;
+
+  }
+}
+
+.monica-img img {
+  margin: 50px 30px 50px 30px;
+}
+
+
+.first {
+  opacity: .8;
+  filter: contrast(180%);
+}
+
+.second {
+  opacity: .6;
+  filter: contrast(150%);
+}
+
+.btn {
+  background: #8e16de;
+  background-image: -webkit-linear-gradient(top, #8e16de, #b11deb);
+  background-image: -moz-linear-gradient(top, #8e16de, #b11deb);
+  background-image: -ms-linear-gradient(top, #8e16de, #b11deb);
+  background-image: -o-linear-gradient(top, #8e16de, #b11deb);
+  background-image: linear-gradient(to bottom, #8e16de, #b11deb);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c63cfc;
+  background-image: -webkit-linear-gradient(top, #c63cfc, #6a1396);
+  background-image: -moz-linear-gradient(top, #c63cfc, #6a1396);
+  background-image: -ms-linear-gradient(top, #c63cfc, #6a1396);
+  background-image: -o-linear-gradient(top, #c63cfc, #6a1396);
+  background-image: linear-gradient(to bottom, #c63cfc, #6a1396);
+  text-decoration: none;
+}
